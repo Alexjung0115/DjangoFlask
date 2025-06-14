@@ -15,7 +15,7 @@ import torchvision.transforms as transforms
 import torchvision.models as models
 import json
 from django.http import JsonResponse
-device = "cpu" if torch.cuda.is_available() else "device"
+device = "cuda" if torch.cuda.is_available() else "cpu"
 Face_eye_detection_model = YOLO("main/best_weight_model/newfaceeye.pt").to(device)
 Object_detection_model = YOLO("main/best_weight_model/face_segmentation.pt").to(device)
 
