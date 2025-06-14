@@ -19,7 +19,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
-     "http://localhost:5173","3.144.230.195", "https://balladream.shop"
+     "http://localhost:5173","https://3.144.230.195", "https://balladream.shop"
 ]
 
 # Quick-start development settings - unsuitable for production
